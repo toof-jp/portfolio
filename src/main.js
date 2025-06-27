@@ -309,7 +309,6 @@ document.querySelector('#app').innerHTML = `
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-bold text-center mb-12">Contact</h2>
         <div class="max-w-md mx-auto text-center">
-          <p class="text-gray-600 mb-8">お仕事のご依頼・ご相談はお気軽にご連絡ください</p>
           <div class="space-y-6">
             <a href="https://github.com/toof-jp" target="_blank" class="flex items-center justify-center space-x-3 text-gray-700 hover:text-gray-900 transition">
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -325,7 +324,7 @@ document.querySelector('#app').innerHTML = `
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-8">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <p>&copy; 2024 toof-jp. All rights reserved.</p>
+        <p>&copy; 2025 toof-jp. All rights reserved.</p>
       </div>
     </footer>
   </div>
