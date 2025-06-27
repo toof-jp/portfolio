@@ -244,12 +244,12 @@ document.querySelector('#app').innerHTML = `
                 <div class="text-2xl font-bold text-orange-600 mb-1">Rust</div>
                 <div class="text-sm text-gray-600">axum, SQLx</div>
               </div>
-              <div class="bg-green-50 border border-green-200 rounded-lg p-4 text-center">
-                <div class="text-2xl font-bold text-green-600 mb-1">PostgreSQL</div>
+              <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 text-center">
+                <div class="text-2xl font-bold text-blue-600 mb-1">PostgreSQL</div>
                 <div class="text-sm text-gray-600">Database</div>
               </div>
-              <div class="bg-purple-50 border border-purple-200 rounded-lg p-4 text-center">
-                <div class="text-2xl font-bold text-purple-600 mb-1">Supabase</div>
+              <div class="bg-green-50 border border-green-200 rounded-lg p-4 text-center">
+                <div class="text-2xl font-bold text-green-600 mb-1">Supabase</div>
                 <div class="text-sm text-gray-600">BaaS</div>
               </div>
             </div>
@@ -271,8 +271,8 @@ document.querySelector('#app').innerHTML = `
                 <div class="text-2xl font-bold text-purple-600 mb-1">Vite</div>
                 <div class="text-sm text-gray-600">Build Tool</div>
               </div>
-              <div class="bg-green-50 border border-green-200 rounded-lg p-4 text-center">
-                <div class="text-2xl font-bold text-green-600 mb-1">Tailwind CSS</div>
+              <div class="bg-cyan-50 border border-cyan-200 rounded-lg p-4 text-center">
+                <div class="text-2xl font-bold text-cyan-600 mb-1">Tailwind CSS</div>
                 <div class="text-sm text-gray-600">Utility-first CSS</div>
               </div>
             </div>
