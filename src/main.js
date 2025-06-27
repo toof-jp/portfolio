@@ -69,7 +69,7 @@ document.querySelector('#app').innerHTML = `
                 <div class="mb-4">
                   <h4 class="font-semibold mb-2">使用技術:</h4>
                   <div class="flex flex-wrap gap-2">
-                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Go (Echo v4)</span>
+                    <span class="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm">Go (Echo v4)</span>
                     <span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">AWS Lightsail</span>
                     <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Terraform</span>
                     <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Docker</span>
@@ -236,8 +236,8 @@ document.querySelector('#app').innerHTML = `
           <div>
             <h3 class="text-xl font-semibold mb-4 text-gray-800">Backend</h3>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 text-center">
-                <div class="text-2xl font-bold text-blue-600 mb-1">Go</div>
+              <div class="bg-cyan-50 border border-cyan-200 rounded-lg p-4 text-center">
+                <div class="text-2xl font-bold text-cyan-600 mb-1">Go</div>
                 <div class="text-sm text-gray-600">Echo v4</div>
               </div>
               <div class="bg-orange-50 border border-orange-200 rounded-lg p-4 text-center">
