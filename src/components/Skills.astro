@@ -1,0 +1,57 @@
+---
+import SkillCard from './SkillCard';
+
+const skillCategories = [
+  {
+    title: "Backend",
+    skills: [
+      { name: "Go", description: "Echo v4", color: "cyan" },
+      { name: "Rust", description: "axum, SQLx", color: "orange" },
+      { name: "PostgreSQL", description: "Database", color: "blue" },
+      { name: "Supabase", description: "BaaS", color: "green" }
+    ]
+  },
+  {
+    title: "Frontend",
+    skills: [
+      { name: "React", description: "SPA", color: "blue" },
+      { name: "WebAssembly", description: "WASM", color: "yellow" },
+      { name: "Vite", description: "Build Tool", color: "purple" },
+      { name: "Tailwind CSS", description: "Utility-first CSS", color: "cyan" }
+    ]
+  },
+  {
+    title: "Infrastructure & DevOps",
+    skills: [
+      { name: "AWS", description: "Lightsail, S3, CF", color: "orange" },
+      { name: "Terraform", description: "IaC", color: "purple" },
+      { name: "Docker", description: "Container", color: "blue" },
+      { name: "Cloudflare Pages", description: "Edge Hosting", color: "yellow" }
+    ]
+  }
+];
+---
+
+<section id="skills" class="py-16">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-center mb-12">Skills</h2>
+    
+    <div class="space-y-8 max-w-4xl mx-auto">
+      {skillCategories.map((category) => (
+        <div>
+          <h3 class="text-xl font-semibold mb-4 text-gray-800">{category.title}</h3>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-fr">
+            {category.skills.map((skill) => (
+              <SkillCard 
+                name={skill.name} 
+                description={skill.description} 
+                color={skill.color} 
+                client:load 
+              />
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
